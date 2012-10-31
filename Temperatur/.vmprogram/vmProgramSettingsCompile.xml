@@ -1,0 +1,8 @@
+<VisualMicro>
+  <Program Name="Temperatur" Ext=".pde" Location="C:\Users\MCHPirnayJ\Documents\Arduino\Temperatur" IncludeDebugInformation="0">
+    <Compile IsCompiled="0" StopOnError="False" OptimiseLibs="True" OptimiseCore="True" BuildPath="C:\Users\MCHPirnayJ\AppData\Local\VMicro\Arduino\Builds\Temperatur\uno" IncludesDebug="0" SketchName="Temperatur" CompilerErrors="1" />
+    <Platform Name="Arduino">
+      <Board Name="uno" Description="Arduino Uno" CoreFolder="D:\arduino-1.0\hardware\arduino\cores\arduino" VariantFullPath="D:\arduino-1.0\hardware\arduino\variants\standard" />
+    </Platform>
+  </Program>
+</VisualMicro>

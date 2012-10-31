@@ -1,0 +1,8 @@
+<VisualMicro>
+  <Program Name="TempSensor" Ext=".pde" IncludeDebugInformation="0" Location="c:\Users\MCHPirnayJ\Documents\Arduino\TempSensor">
+    <Compile IsCompiled="0" CompilerErrors="0" StopOnError="False" OptimiseLibs="True" OptimiseCore="True" BuildPath="C:\Users\MCHPirnayJ\AppData\Local\VMicro\Arduino\Builds\TempSensor\uno" />
+    <Platform Name="Arduino">
+      <Board Name="uno" Description="Arduino Uno" CoreFolder="D:\arduino-1.0\hardware\arduino\cores\arduino" VariantFullPath="D:\arduino-1.0\hardware\arduino\variants\standard" />
+    </Platform>
+  </Program>
+</VisualMicro>
