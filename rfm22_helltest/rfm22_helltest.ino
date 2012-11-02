@@ -160,7 +160,7 @@ void setupRadio(){
   radio1.write(0x71, 0x00); // unmodulated carrier
   
   radio1.write(0x07, 0x08); // turn tx on
-  delay(1000);
+  delay(10000);
   radio1.write(0x07, 0x01); // turn tx off
   
 }

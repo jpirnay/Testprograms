@@ -105,7 +105,7 @@ void rtty_txbyte (char c)
         
 	rtty_txbit (0); // Start bit
 	// Send bits for for char LSB first	
-	for (i=0;i<8;i++)
+	for (i=0;i<7;i++)
 	{
 		if (c & 1) rtty_txbit(1); 
 			else rtty_txbit(0);	
