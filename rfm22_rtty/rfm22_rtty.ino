@@ -30,14 +30,14 @@ char superbuffer [80];
 #define RF22_ADCREF_VDD_ON_2                    0x0c
 #define RF22_ADCGAIN                            0x03
 
-const float freq = 433.000;
+const float freq = 434.19;
 
 
 void setupRadio(){
  
 //  digitalWrite(5, LOW); // Radio anschalten falls SDN mit Pin 5 verbunden
  
-//  delay(1000);
+  delay(1000);
  
   rfm22::initSPI();
  
@@ -55,7 +55,7 @@ void setupRadio(){
   radio1.write(0x07, 0x08); // turn tx on
   delay(1000);
   radio1.write(0x07, 0x01); // turn tx off
-  radio1.write(0x6d, 0x00); // set output power: RF22_REG_6D_TX_POWER: 00 low , 07 high
+  radio1.write(0x6d, 0x07); // set output power: RF22_REG_6D_TX_POWER: 00 low , 07 high
   /*
  #define RF22_TXPOW_1DBM                         0x00
 #define RF22_TXPOW_2DBM                         0x01
